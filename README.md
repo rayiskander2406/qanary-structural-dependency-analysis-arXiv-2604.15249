@@ -1,9 +1,11 @@
 # Structural Dependency Analysis for Masked NTT Hardware
 
 [![arXiv](https://img.shields.io/badge/arXiv-2604.15249-b31b1b.svg)](https://arxiv.org/abs/2604.15249)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19625393.svg)](https://doi.org/10.5281/zenodo.19625393)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 Artifact repository for reproducing results from [arXiv:2604.15249](https://arxiv.org/abs/2604.15249).
+Archived on Zenodo: [10.5281/zenodo.19625393](https://doi.org/10.5281/zenodo.19625393).
 
 ## Abstract
 
@@ -105,6 +107,8 @@ The Adams Bridge ML-DSA/ML-KEM accelerator (CHIPS Alliance / Caliptra project, c
 
 ## Citation
 
+To cite the paper:
+
 ```bibtex
 @article{iskander2026structural,
   title={Structural Dependency Analysis for Masked {NTT} Hardware:
@@ -115,6 +119,19 @@ The Adams Bridge ML-DSA/ML-KEM accelerator (CHIPS Alliance / Caliptra project, c
   eprint={2604.15249},
   archivePrefix={arXiv},
   primaryClass={cs.CR}
+}
+```
+
+To cite this artifact (software):
+
+```bibtex
+@software{iskander2026structural_artifact,
+  title={Artifact: Structural Dependency Analysis for Masked {NTT} Hardware},
+  author={Iskander, Ray and Kirah, Khaled},
+  year={2026},
+  version={1.0.0},
+  doi={10.5281/zenodo.19625393},
+  url={https://doi.org/10.5281/zenodo.19625393}
 }
 ```
 
