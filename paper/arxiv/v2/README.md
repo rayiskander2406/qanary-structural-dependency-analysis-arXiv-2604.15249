@@ -1,8 +1,9 @@
-# arXiv v2 — uploaded 2026-04-20, awaiting arXiv moderation
+# arXiv v2 — published 2026-04-21
 
-**arXiv URL (once live):** https://arxiv.org/abs/2604.15249v2
-**Uploaded:** 2026-04-20 (by Khaled Kirah, ~2h before commit time; arXiv moderation typically 2–24h)
-**Status:** UPLOADED, AWAITING_MODERATION — abs page not yet showing v2 as of commit time
+**arXiv URL:** https://arxiv.org/abs/2604.15249v2
+**Uploaded:** 2026-04-20 (by Khaled Kirah)
+**Publicly live:** 2026-04-21
+**Status:** PUBLISHED
 
 ## Files
 
@@ -33,10 +34,10 @@ The v1 README's note about "a new Zenodo version should auto-mint via the GitHub
 
 Khaled iterated the Word source between receiving our v2 draft (2026-04-17) and uploading to arXiv (2026-04-20). Local iteration names visible on his side: `v2_for_Khaled_2026-04-17` → `v4_for_Khaled_2026-04-17`. Paragraph-level diff (after typographic normalization): **0 content changes**. The size delta (~370 KB → ~411 KB) is Word save-cycle metadata.
 
-## Next step (when arXiv v2 goes live, expected 2026-04-21)
+## Live-transition actions (completed 2026-04-21)
 
-1. Verify https://arxiv.org/abs/2604.15249v2 resolves and shows the new abstract + Comments field.
-2. Update this README header: `uploaded 2026-04-20, awaiting moderation` → `published 2026-04-21`.
-3. Update `../../correspondence/khaled/2026-04-17_sent_paper1_v2/STATUS.md`: AWAITING_MODERATION → ARXIV_V2_UPLOADED_LIVE.
-4. Update `~/qanary/papers/registry.yaml` `paper1.arxiv.versions[]` v2 entry: set `uploaded_date` to actual publication date; remove `arxiv_v2_pending` field.
-5. Tag `arxiv-v2` on the commit that does (2)–(4).
+1. ✓ Verified https://arxiv.org/abs/2604.15249v2 resolves with new abstract + Comments field.
+2. ✓ README header flipped from `awaiting moderation` → `published 2026-04-21`.
+3. ✓ `../../correspondence/khaled/2026-04-17_sent_paper1_v2/STATUS.md` updated: AWAITING_MODERATION → ARXIV_V2_UPLOADED_LIVE.
+4. ✓ `~/qanary/papers/registry.yaml` `paper1.arxiv.versions[]` v2 entry: `live_date` set to 2026-04-21; `manuscript_git_sha` filled; `repo.arxiv_v2_pending` removed.
+5. ✓ Tag `arxiv-v2` applied.
